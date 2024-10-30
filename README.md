@@ -1,6 +1,6 @@
-# OPENAI-GEMINI-DOCKER
+# WIRE-POD.DOCKER
 
-Dockerize the [openai-gemini](https://github.com/PublicAffairs/openai-gemini.git) repository for local hosting via Docker. This setup allows you to easily build and run the project in a container.
+Simple docker build from [kercre123/wire-pod](https://github.com/kercre123/wire-pod.git) repository project to a container in docker-compose.yml
 
 ### Key Notes
 - The default port (8080) is changed to **11434** in `node.mjs`.
