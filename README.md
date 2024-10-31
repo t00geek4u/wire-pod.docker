@@ -3,9 +3,8 @@
 Simple docker build from [kercre123/wire-pod](https://github.com/kercre123/wire-pod.git) repository project to a container in docker-compose.yml
 
 ### Key Notes
-- The default port (8080) is changed to **11434** in `node.mjs`.
-- This Docker image **does not install** Deno or Bun.
-- The container starts the app using `npm run start`, running `node.mjs`.
+- macvlan example in `docker-compose.yml` to assign container lan side ip address, so host does not have to be renamed to `escapepod`
+- One-Click setup provided (need to change LAN and IP configuration in `docker-compose.yml`)
 
 ---
 
